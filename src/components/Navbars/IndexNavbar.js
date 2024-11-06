@@ -82,12 +82,13 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <button
+                <a
                   className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
+                  href="https://www.creative-tim.com/product/notus-react?ref=nr-index"
+                  target="_blank"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
-                </button>
+                  <i class="fas fa-arrow-alt-circle-down"></i> Download
+                </a>
               </li>
             </ul>
           </div>
